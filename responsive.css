@@ -16,7 +16,7 @@
     /* Adjustments for smaller screens */
     
     /* Update styles for #nav */
-
+    
 
     #cursor {
         height: 20px;
@@ -66,7 +66,7 @@
     
     /* Update styles for #page1 */
     #page1 h1 {
-       
+       top: 0;
       font-size: 12vw; /* Adjust font size for smaller screens */
     }
     
@@ -90,6 +90,7 @@
     #page1 #arrow i {
       font-size: 3vw; /* Adjust font size for smaller screens */
     }
+    
     
     /* Update styles for other sections */
     /* Apply similar adjustments for other sections */

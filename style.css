@@ -184,6 +184,7 @@
     font-size: 7.5vw;
     font-weight: 900;
     position: relative;
+    top: -9rem;
   }
   #page1 h1::before {
     content: "THE ETERNITY CLUB";
