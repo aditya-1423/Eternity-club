@@ -66,6 +66,20 @@ transition: scale 0.2 ease;
 
     scale:1.05;
 }
+#join{
+background-color: orange;
+border-radius:30px;
+height: 2rem;
+transition: scale 0.2 ease;
+margin-left: 10px;
+
+}
+#join:hover{
+
+    scale:1.05;
+}
+
+
 
 @media(max-width: 720px){
   .links-container{
@@ -109,18 +123,34 @@ transition: scale 0.2 ease;
     background-color: orange;
     width: 10rem;
     height: 10px;
-    
-    
-    
-}
+  }
+  
   #register:hover {
     background-color: orange;
     border-radius: 30px;
      width: 10rem;
     height: 10px;
    
-    margin-left: 10px;
-    
-    
+    margin-left: 10px;  
 }
+
+#join {
+    background-color: orange;
+    width: 10rem;
+    height: 10px;
+    margin-left: 0;
+    margin-top: 20px;
+
+ 
+}
+  #join:hover {
+    background-color: orange;
+    border-radius: 30px;
+     width: 10rem;
+    height: 10px;
+   
+    margin-left: 10px;  
+}
+
+
 }
