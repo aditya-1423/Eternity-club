@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom:2px solid #95c11e;
+    border-bottom:2px solid #6b84d6;
     padding: 2rem;
  background:linear-gradient(rgba(10, 11, 9, 0.8), rgba(5, 7, 3, 0.8)),url('Assets//o1.jpg');
   background-size: cover;
@@ -128,7 +128,7 @@
     align-items: center;
     padding: 2rem;
     height: 100%;
-    border-bottom: 2px solid #95c11e;
+    border-bottom: 2px solid #6b84d6;
     /* background:linear-gradient(rgba(10, 11, 9, 0.8), rgba(5, 7, 3, 0.8)),url('Assets//o1.jpg'); */
 }
 .eventdetails h1{

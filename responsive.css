@@ -8,8 +8,8 @@
       top: 20%;
     }
     #page3 #colon2 {
-      bottom: 21%;
-      right: 13%;
+      bottom: 18%;
+      right: 8%;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -189,7 +189,7 @@
         align-items: center;
         justify-content: space-between;
         /* background-color: red; */
-        background: linear-gradient(to left bottom, #119f3a, #ace022);
+       
       }
 
       #green-div h4 {
@@ -303,15 +303,18 @@
     .header{
       padding: 0px;
     }
+    #page3{
+      height: 54vh;
+    }
     #page3 > p{
       line-height: 32px;
     }
     #page3 #colon1 {
       left: 6%;
-      top: 27%;
+      top: 20%;
     }
     #page3 #colon2 {
-      bottom: 28%;
+      bottom: 18%;
       right: 14%;
     }
     #green-div{
