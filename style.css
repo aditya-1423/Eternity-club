@@ -369,21 +369,21 @@ body.page2-bg {
   transition: all ease 0.6s;
 }
 #card1 {
-  background-image: url('Assets/r3.jpeg');
+  background-image: url('img/1453369.jpg');
 }
 
 #card2 {
-  background-image: url('Assets/walln7.jpg');
+  background-image: url('img/1453369.jpg');
 }
 
 #card3 {
-  background-image: url('Assets/walln6.jpg');
+  background-image: url('img/1453369.jpg');
 }
 
 .overlay {
   height: auto;
   width: 100%;
-  background-color: #95c11e;
+  background: linear-gradient(to left bottom, #0738dc, #8eb3eb);
   padding: 30px;
   opacity: 0;
   transition: all ease 0.6s;
@@ -391,7 +391,7 @@ body.page2-bg {
 
 .overlay h4 {
   color: #000;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   white-space: nowrap;
   margin-bottom: 20px;
@@ -500,7 +500,8 @@ body.page2-bg {
 .elem h2 {
   height: 100%;
   width: 100%;
-  background-color: #95c11e;
+  background-color: #6b84d6;
+  
   display: flex;
   color: #000;
   font-weight: 800;

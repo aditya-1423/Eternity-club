@@ -45,7 +45,7 @@
     box-shadow: 3px 2px 2px rgb(27, 26, 26);
 }
 .info{
-    background-color: #95c11e;
+  background: linear-gradient(to left bottom, #1343df, #8eb3eb);
     border-radius: 2px;
     position: relative;
     top: -2rem;
@@ -60,7 +60,7 @@
 
 /* for HEAD only */
 .INFO{
-  background-color: #95c11e;
+  background: linear-gradient(to left bottom, #1343df, #8eb3eb);
   border-radius: 2px;
   position: relative;
   top: -2rem;
@@ -151,7 +151,7 @@
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     padding: 30px 40px;
-    background: #95c11e;
+    background: linear-gradient(to left bottom, #0738dc, #8eb3eb);
     
     cursor: pointer;
     /* margin-right: 30px; */
