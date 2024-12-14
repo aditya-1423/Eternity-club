@@ -20,6 +20,22 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
+<style>
+  #typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(100, end);
+    border-right: none;  /* Remove the caret */
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 91%; }
+}
+</style>
+
 <body>
 
 
@@ -66,7 +82,7 @@
 
   <div id="main">
     <div id="page1">
-      <h1 class="netflix-heading">THE ETERNITY CLUB</h1>
+      <h1 class="netflix-heading" id="typewriter">THE ETERNITY CLUB</h1>
       <!-- <h2>WELCOME TO THE ETERNITY CLUB</h2>
       <p>
         The Shri Shankaracharya Professional University (SSPU) believes in nurturing students for the future.

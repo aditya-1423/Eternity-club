@@ -1,12 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix-Style Heading</title>
-    <link rel="stylesheet" href="Untitled-2.css">
+    <title>Eternity Symbol Formation Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.eternity-symbol {
+    width: 60%;
+    height: auto;
+}
+
+.infinity-path {
+    fill: none;
+    stroke: #ff6347;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: draw 5s linear forwards;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+    </style>
 </head>
 <body>
-    <h1 class="netflix-heading">Welcome to My Website</h1>
+    <svg class="eternity-symbol" viewBox="0 0 200 100">
+        <path class="infinity-path" d="M10,50 Q 50,0, 100,50 T 190,50 Q 150,100, 100,50 T 10,50" />
+    </svg>
 </body>
 </html>

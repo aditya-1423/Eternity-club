@@ -1,634 +1,634 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "montserrat";
-    color: #fff;
-  
-  
-  }
-  
-  html, body {
-    /* background-image: url('img/wp2263825-eternity-wallpapers.jpg'); */
-    
-    background-size: cover;
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "montserrat";
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    scroll-behavior: smooth;
-    
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+  color: #fff;
 
-  /* ---------BACKGROUND VIDEO--------- */
-  #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
-  
- 
-  /* --------------- */
-  
-    
-  
-  *::selection {
-    background-color: #bfb5b5;
-    color: #95c11e;
-  }
-  
-  body::-webkit-scrollbar {
-    display: block;
-    width: 8px;
-    background: #95c11e;
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: #fff;
-  
-    border-radius: 50px;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  #cursor {
-    height: 0;
-    width: 0;
-    background-color: #080808;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 99;
-    transition: all linear 0.1s;
-  }
-  #cursor-blur {
-    height: 300px;
-    width: 300px;
-    background-color: rgba(150, 193, 30, 0.3);
-    border-radius: 50%;
-    position: fixed;
-    filter: blur(80px);
-    z-index: 9;
-    transition: all linear 0.4s; 
-  }
-  /* .header{
-    display: flex;
-    align-items: center;
-    padding: 0 5px;
-    gap: 40px;
-    z-index: 999;
-    position: fixed;
-    width: 100%
-  } */
-  /* .logo{
-    height: 9.6vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-    padding: 1.5rem 0 0 0.5rem;
-  } */
-  #nav {
-    height: 4.5vw;
-    width: 100%;  
-    display: flex;
-    align-items: center;
-    padding: 0 60px;
-    gap: 40px;
-    justify-content: flex-start;
-    z-index: 999;
-  }
-  .logo img {
-    height: 6.5vw;
-  }
-  #nav h4 {
-    text-transform: uppercase;
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 1.5vw;
-  }
-  
-  #nav h4 a {
-    position: relative;
-    font-size: 1.1em;
-    color: #e8e7e7;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 40px;
-  }
-  
-  #nav h4 a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    color:#ffffff;
-    bottom: -6px;
-    width: 100%;
-    height: 3px;
-    background: #fff;
-    border-radius: 5px;
-    transform: scaleX(0);
-    transition: transform .5s;
-  
-  }
-  
-  #nav h4 a:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-  
-  video {
-    height: 100%;
-    width: 100%;
-    object-fit: unset;
-    z-index: -1;
-    /* position: fixed; */
-  }
-  
-  #main {
-    padding-top: 10%;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.39);
-    z-index: -1;
-  }
-  
-  
-  #page1 {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    z-index: 10;
-  }
-  #page1 h1 {
-    font-family: 'Rubik';font-size: 22px;
-    font-size: 7.5vw;
-    font-weight: 900;
-    position: relative;
-    top: -9rem;
-  }
-  #page1 h1::before {
-    content: "THE ETERNITY CLUB";
-    position: absolute;
-    color: #000;
-    top: -5px;
-    left: -5px;
-    -webkit-text-stroke: 1.5px #1176db;
-    z-index: -1;
-  }
-  #page1 h2 {
-    font-size:2vw;
-    font-weight: 800;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  #page1 p {
-    font-size: 1.2vw;
-    font-weight: 500;
-    width: 40%;
-  }
-  #page1 #arrow {
-    height: 8vw;
-    width: 8vw;
-    margin-left: 4%;
-    margin-bottom: 3%;
-    background-color: transparent;
-    border: 2px solid #95c11e;
-    position: absolute;
-    display: flex;
-    left: 1%;
-    bottom: 24%;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all ease 0.5s;
-  }
-  #page1 #arrow i {
-    font-size: 5vw;
-    font-weight: 100;
-  }
-  #page1 #arrow:hover {
-    scale: 0.4;
-    background-color: #95c11e;
-  }
 
-  .netflix-heading {
-    font-size: 3rem;
-    color: #fcfbfb; /* Netflix red color */
-    text-transform: uppercase;
-    animation: fadeIn 2s ease-out, scaleIn 1s ease-in-out;
+}
+
+html, body {
+  /* background-image: url('img/wp2263825-eternity-wallpapers.jpg'); */
+  
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  
+}
+
+/* ---------BACKGROUND VIDEO--------- */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* --------------- */
+
+  
+
+*::selection {
+  background-color: #bfb5b5;
+  color: #95c11e;
+}
+
+body::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background: #95c11e;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+
+  border-radius: 50px;
+}
+body {
+  overflow-x: hidden;
+}
+#cursor {
+  height: 0;
+  width: 0;
+  background-color: #080808;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+  transition: all linear 0.1s;
+}
+#cursor-blur {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(150, 193, 30, 0.3);
+  border-radius: 50%;
+  position: fixed;
+  filter: blur(80px);
+  z-index: 9;
+  transition: all linear 0.4s; 
+}
+/* .header{
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  gap: 40px;
+  z-index: 999;
+  position: fixed;
+  width: 100%
+} */
+/* .logo{
+  height: 9.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 1.5rem 0 0 0.5rem;
+} */
+#nav {
+  height: 4.5vw;
+  width: 100%;  
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  gap: 40px;
+  justify-content: flex-start;
+  z-index: 999;
+}
+.logo img {
+  height: 6.5vw;
+}
+#nav h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.5vw;
+}
+
+#nav h4 a {
+  position: relative;
+  font-size: 1.1em;
+  color: #e8e7e7;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+#nav h4 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  color:#ffffff;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform .5s;
+
+}
+
+#nav h4 a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: unset;
+  z-index: -1;
+  /* position: fixed; */
+}
+
+#main {
+  padding-top: 10%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.39);
+  z-index: -1;
+}
+
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 10;
+}
+#page1 h1 {
+  font-family: 'Rubik';font-size: 22px;
+  font-size: 7.5vw;
+  font-weight: 900;
+  position: relative;
+  top: -9rem;
+}
+#page1 h1::before {
+  content: "THE ETERNITY CLUB";
+  position: absolute;
+  color: #000;
+  top: -5px;
+  left: -5px;
+  -webkit-text-stroke: 1.5px #1176db;
+  z-index: -1;
+}
+#page1 h2 {
+  font-size:2vw;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#page1 p {
+  font-size: 1.2vw;
+  font-weight: 500;
+  width: 40%;
+}
+#page1 #arrow {
+  height: 8vw;
+  width: 8vw;
+  margin-left: 4%;
+  margin-bottom: 3%;
+  background-color: transparent;
+  border: 2px solid #95c11e;
+  position: absolute;
+  display: flex;
+  left: 1%;
+  bottom: 24%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all ease 0.5s;
+}
+#page1 #arrow i {
+  font-size: 5vw;
+  font-weight: 100;
+}
+#page1 #arrow:hover {
+  scale: 0.4;
+  background-color: #95c11e;
+}
+
+.netflix-heading {
+  font-size: 3rem;
+  color: #fcfbfb; /* Netflix red color */
+  text-transform: uppercase;
+  animation: fadeIn 2s ease-out, scaleIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
 
 @keyframes scaleIn {
-    from {
-        transform: scale(0.1);
-    }
-    to {
-        transform: scale(1);
-    }
+  from {
+      transform: scale(0.1);
+  }
+  to {
+      transform: scale(1);
+  }
 }
 
 
 
-  /* page 2 */
+/* page 2 */
 
-  #page2 {
-    min-height: 100vh;
-    width: 100%;
-    z-index: 10;
+#page2 {
+  min-height: 100vh;
+  width: 100%;
+  z-index: 10;
+}
+body.page2-bg {
+  background-image: url('Assets/wall2.jpg'); /* Assuming the 'Assets' folder is in the same directory as your HTML file */
+}
+
+
+#scroller {
+  /* background-color: red; */
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 10;
+}
+#scroller::-webkit-scrollbar {
+  display: none;
+}
+#scroller-in {
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#scroller h4 {
+  display: inline-block;
+  font-size: 90px;
+  font-weight: 600;
+  font-family: gilroy;
+  margin-right: 20px;
+  transition: all linear 0.3s;
+  color: #000;
+  -webkit-text-stroke: 2px #ffffff;
+}
+#scroller h4:hover {
+  color: #95c11e;
+  -webkit-text-stroke: 2px #95c11e;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
   }
-  body.page2-bg {
-    background-image: url('Assets/wall2.jpg'); /* Assuming the 'Assets' folder is in the same directory as your HTML file */
+  to {
+    transform: translateX(-100%);
   }
-  
-  
-  #scroller {
-    /* background-color: red; */
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    position: relative;
-    z-index: 10;
-  }
-  #scroller::-webkit-scrollbar {
-    display: none;
-  }
-  #scroller-in {
-    display: inline-block;
-    white-space: nowrap;
-    animation-name: scroll;
-    animation-duration: 40s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  
-  #scroller h4 {
-    display: inline-block;
-    font-size: 90px;
-    font-weight: 600;
-    font-family: gilroy;
-    margin-right: 20px;
-    transition: all linear 0.3s;
-    color: #000;
-    -webkit-text-stroke: 2px #ffffff;
-  }
-  #scroller h4:hover {
-    color: #95c11e;
-    -webkit-text-stroke: 2px #95c11e;
-  }
-  
-  @keyframes scroll {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-  
-  #about-us {
-    height: 40vh;
-    width: 100%;
-    /* background-color: red; */
+}
+
+#about-us {
+  height: 40vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  margin-top: 40px;
+  padding: 0 50px;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  justify-content: space-around;
+}
+#about-us img {
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+#about-us-in {
+  width: 50%;
+  text-align: center;
+}
+#about-us-in h3 {
+  font-size: 54px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+#about-us-in p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+
+
+#cards-container {
+  /* background-color: red; */
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+  z-index: 10;
+}
+.card {
+  height: 70%;
+  width: 24%;
+  /* background-color: blue; */
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  transition: all ease 0.6s;
+}
+#card1 {
+  background-image: url('Assets/r3.jpeg');
+}
+
+#card2 {
+  background-image: url('Assets/walln7.jpg');
+}
+
+#card3 {
+  background-image: url('Assets/walln6.jpg');
+}
+
+.overlay {
+  height: auto;
+  width: 100%;
+  background-color: #95c11e;
+  padding: 30px;
+  opacity: 0;
+  transition: all ease 0.6s;
+}
+
+.overlay h4 {
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.overlay p {
+  color: #000;
+  font-size: 18px;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.card:hover {
+  transform: rotate3d(-1, 1, 0, 20deg);
+}
+
+#green-div {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  background: linear-gradient(to left bottom, #0738dc, #8eb3eb);
+}
+#green-div h4 {
+  width: 45%;
+  line-height: 50px;
+  color: #000;
+  text-align: center;
+  font-weight: 800;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+#green-div img {
+  height: 100%;
+  object-fit: cover;
+  width: 14%;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  /* background-image: url('img/1453369.jpg'); */
+ 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  justify-content: center;
+}
+
+#page3 > p {
+  font-size: 35px;
+  font-weight: 700;
+  width: 60%;
+  line-height: 45px;
+  text-align: center;
+}
+
+#page3 img {
+  position: absolute;
+  height: 60px;
+  /* opacity: 0.5; */
+}
+#page3 #colon1 {
+  left: 17%;
+  top: 23%;
+}
+#page3 #colon2 {
+  bottom: 30%;
+  right: 15%;
+}
+#page3 .background-image{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3; /* Adjust the opacity value as needed */
+  z-index: -1;
+}
+#page4 {
+  background:linear-gradient(rgba(10, 11, 9, 0.8), rgba(5, 7, 3, 0.8)),url('Assets//war-robots\ 1.jpg');
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  border-bottom:2px solid #95c11e;
+}
+.elem {
+  height: 70%;
+  width: 26%;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 20px; /* Add margin-right to create space between images */
+}
+
+.elem h2 {
+  height: 100%;
+  width: 100%;
+  background-color: #95c11e;
+  display: flex;
+  color: #000;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.5s;
+  font-size: 2vw;
+  position: absolute;
+  z-index: 10;
+}
+.elem img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+  scale: 1.1;
+}
+.elem:hover h2 {
+  color: #fff;
+  background-color: transparent;
+}
+.elem:hover img {
+  scale: 1;
+}
+
+
+
+.elem:last-child {
+  margin-right: 0; /* Remove margin-right from the last image */
+}
+
+
+#page4 h1 {
+  font-size: 6.4vw;
+  position: absolute;
+  top: -15%;
+  font-weight: 900;
+  font-family: gilroy;
+  color: #000;
+  -webkit-text-stroke: 2px #fff;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
     display: flex;
-    margin-top: 40px;
-    padding: 0 50px;
-    align-items: center;
-    position: relative;
-    z-index: 10;
-    justify-content: space-around;
-  }
-  #about-us img {
-    height: 220px;
-    width: 220px;
-    border-radius: 20px;
-    object-fit: cover;
-  }
-  #about-us-in {
-    width: 50%;
-    text-align: center;
-  }
-  #about-us-in h3 {
-    font-size: 54px;
-    font-weight: 800;
-    margin-bottom: 30px;
-  }
-  #about-us-in p {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  
-  
-  
-  #cards-container {
-    /* background-color: red; */
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
-    position: relative;
-    z-index: 10;
-  }
-  .card {
-    height: 70%;
-    width: 24%;
-    /* background-color: blue; */
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    transition: all ease 0.6s;
-  }
-  #card1 {
-    background-image: url('Assets/r3.jpeg');
-  }
-  
-  #card2 {
-    background-image: url('Assets/walln7.jpg');
-  }
-  
-  #card3 {
-    background-image: url('Assets/walln6.jpg');
-  }
-  
-  .overlay {
-    height: auto;
-    width: 100%;
-    background-color: #95c11e;
-    padding: 30px;
-    opacity: 0;
-    transition: all ease 0.6s;
-  }
-  
-  .overlay h4 {
-    color: #000;
-    font-size: 40px;
-    text-transform: uppercase;
-    white-space: nowrap;
-    margin-bottom: 20px;
-    font-weight: 800;
-  }
-  .overlay p {
-    color: #000;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
     font-size: 18px;
-  }
-  .card:hover .overlay {
-    opacity: 1;
-  }
-  .card:hover {
-    transform: rotate3d(-1, 1, 0, 20deg);
-  }
-  
-  #green-div {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background-color: red; */
-    background: linear-gradient(to left bottom, #0738dc, #8eb3eb);
-  }
-  #green-div h4 {
-    width: 45%;
-    line-height: 50px;
-    color: #000;
-    text-align: center;
-    font-weight: 800;
-    font-size: 27px;
-    text-transform: uppercase;
-  }
-  #green-div img {
-    height: 100%;
-    object-fit: cover;
-    width: 14%;
-  }
-  
-  #page3 {
-    height: 100vh;
-    width: 100%;
-    /* background-image: url('img/1453369.jpg'); */
-   
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
     position: relative;
-  
-    justify-content: center;
-  }
-  
-  #page3 > p {
-    font-size: 35px;
-    font-weight: 700;
-    width: 60%;
-    line-height: 45px;
-    text-align: center;
-  }
-  
-  #page3 img {
+}
+.footer-col h4::before{
+    content: '';
     position: absolute;
-    height: 60px;
-    /* opacity: 0.5; */
-  }
-  #page3 #colon1 {
-    left: 17%;
-    top: 23%;
-  }
-  #page3 #colon2 {
-    bottom: 30%;
-    right: 15%;
-  }
-  #page3 .background-image{
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.social-links a:hover{
+    color: #040404;
+    background-color: #a29f9f;
+}
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3; /* Adjust the opacity value as needed */
-    z-index: -1;
-  }
-  #page4 {
-    background:linear-gradient(rgba(10, 11, 9, 0.8), rgba(5, 7, 3, 0.8)),url('Assets//war-robots\ 1.jpg');
-    background-size: cover;
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    position: relative;
-    border-bottom:2px solid #95c11e;
-  }
-  .elem {
-    height: 70%;
-    width: 26%;
-    overflow: hidden;
-    border-radius: 20px;
-    position: relative;
-    margin-right: 20px; /* Add margin-right to create space between images */
-  }
-  
-  .elem h2 {
-    height: 100%;
-    width: 100%;
-    background-color: #95c11e;
-    display: flex;
-    color: #000;
-    font-weight: 800;
-    align-items: center;
-    justify-content: center;
-    transition: all ease 0.5s;
-    font-size: 2vw;
-    position: absolute;
-    z-index: 10;
-  }
-  .elem img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: all ease 0.5s;
-    scale: 1.1;
-  }
-  .elem:hover h2 {
-    color: #fff;
-    background-color: transparent;
-  }
-  .elem:hover img {
-    scale: 1;
-  }
-  
-  
-  
-  .elem:last-child {
-    margin-right: 0; /* Remove margin-right from the last image */
-  }
-  
-  
-  #page4 h1 {
-    font-size: 6.4vw;
-    position: absolute;
-    top: -15%;
-    font-weight: 900;
-    font-family: gilroy;
-    color: #000;
-    -webkit-text-stroke: 2px #fff;
-  }
-  
-  
-  .container{
-      max-width: 1170px;
-      margin:auto;
-  }
-  .row{
-      display: flex;
-      flex-wrap: wrap;
-  }
-  ul{
-      list-style: none;
-  }
-  .footer{
-      background-color: #000000;
-      padding: 70px 0;
-  }
+/*responsive*/
+@media(max-width: 767px){
+
+
+
+
+
   .footer-col{
-     width: 25%;
-     padding: 0 15px;
-  }
-  .footer-col h4{
-      font-size: 18px;
-      color: #ffffff;
-      text-transform: capitalize;
-      margin-bottom: 35px;
-      font-weight: 500;
-      position: relative;
-  }
-  .footer-col h4::before{
-      content: '';
-      position: absolute;
-      left:0;
-      bottom: -10px;
-      background-color: #e91e63;
-      height: 2px;
-      box-sizing: border-box;
-      width: 50px;
-  }
-  .footer-col ul li:not(:last-child){
-      margin-bottom: 10px;
-  }
-  .footer-col ul li a{
-      font-size: 16px;
-      text-transform: capitalize;
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 300;
-      color: #bbbbbb;
-      display: block;
-      transition: all 0.3s ease;
-  }
-  .footer-col ul li a:hover{
-      color: #ffffff;
-      padding-left: 8px;
-  }
-  .footer-col .social-links a{
-      display: inline-block;
-      height: 40px;
-      width: 40px;
-      background-color: rgba(255,255,255,0.2);
-      margin:0 10px 10px 0;
-      text-align: center;
-      line-height: 40px;
-      border-radius: 50%;
-      color: #ffffff;
-      transition: all 0.5s ease;
-  }
-  .social-links a:hover{
-      color: #040404;
-      background-color: #a29f9f;
-  }
-  
-  /*responsive*/
-  @media(max-width: 767px){
-  
-  
-  
-  
-  
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-  }
-  }
-  @media(max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
-  }
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
